@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Liste from "./components/Liste"
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +16,9 @@ class App extends Component {
           <code>src/App.js</code>
           and save to reload.
         </p>
+        <div>
+          <Liste/>
+        </div>
       </div>
     );
   }
