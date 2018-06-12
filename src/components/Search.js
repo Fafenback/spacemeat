@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import axios from "axios";
 import './Search.css'
 import CheckBox from './CheckBox'
-import CardPute from './CardPute'
+import Card from './Card'
 
 class Search extends Component {
     constructor(props) {
@@ -66,7 +66,7 @@ class Search extends Component {
         const page1 = this
             .state
             .api
-            .map((elt, i) => <CardPute
+            .map((elt, i) => <Card
                 height={elt.height}
                 name={elt.name}
                 eyeColor={elt.eyeColor}
@@ -75,7 +75,7 @@ class Search extends Component {
         const page2 = this
             .state
             .filtreApi
-            .map((elt, i) => <CardPute
+            .map((elt, i) => <Card
                 height={elt.height}
                 name={elt.name}
                 eyeColor={elt.eyeColor}
