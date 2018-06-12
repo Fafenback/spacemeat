@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 import BoutonOui from "./boutons/BoutonOui";
 import BoutonNon from "./boutons/BoutonNon";
-class CardPute extends Component {
+class Card extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -59,4 +59,4 @@ class CardPute extends Component {
     }
 }
 
-export default CardPute;
+export default Card;
